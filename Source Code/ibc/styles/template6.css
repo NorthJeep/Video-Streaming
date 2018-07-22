@@ -1,0 +1,77 @@
+.header-container{
+	height: 15%;
+	margin: 5px;
+	display: flex;
+}
+
+.header-container > div {
+	flex: 1;
+}
+
+.main-container{
+	height: 70%;
+	margin: 5px;
+}
+
+.main-first{
+	display: inline-block;
+	width: 49.5%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+.main-second{
+	display: inline-block;
+	width: 49.5%;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+
+
+.main-firsttop{
+	display: inline-block;
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+	overflow: hidden;
+}
+
+.main-firstbottom{
+	display: inline-block;
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+}
+
+
+.main-secondtop{
+	display: inline-block;
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+}
+
+.main-secondbottom{
+	display: inline-block;
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+
+.footer-container{
+	height: 10%;
+	margin: 5px;
+}
+
+*:fullscreen
+		*:-ms-fullscreen,
+		*:-webkit-full-screen,
+		*:-moz-full-screen {
+		   overflow: auto !important;
+		}

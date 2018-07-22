@@ -1,0 +1,53 @@
+.header-container{
+	height: 15%;
+	margin: 5px;
+	display: flex;
+}
+
+.main-container{
+	height: 70%;
+	margin: 5px;
+}
+
+.footer-container{
+	height: 10%;
+	margin: 5px;
+}
+
+.header-container > div {
+	flex: 1;
+}
+
+.main-mainad{
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+
+.main-second{
+	display: inline-block;
+	width: 29.5%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.main-secondtop{
+	display: inline-block;
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+	overflow: hidden;
+}
+
+.main-secondbottom{
+	display: inline-block;
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+}

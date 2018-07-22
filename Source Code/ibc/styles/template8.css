@@ -1,0 +1,21 @@
+.main-container{
+	height: 98%;
+	margin: 5px;
+}
+
+.main-left{
+	display: inline-block;
+	width: 49.5%;
+	height: 100%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.main-right{
+	display: inline-block;
+	width: 49.5%;
+	height: 100%;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}

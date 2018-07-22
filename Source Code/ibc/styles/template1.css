@@ -1,0 +1,56 @@
+.header-container{
+	height: 15%;
+	display: flex;
+}
+
+.header-container > div {
+	flex: 1;
+}
+
+.main-container{
+	height: 70%;
+    overflow: hidden;
+}
+
+.main-mainad{
+	width: 70%;
+	height: 100%;
+	position: relative;
+    overflow: hidden;
+	float: left;
+	overflow: hidden;
+}
+
+.main-second{
+	width: 29.5%;
+	height: 100%;
+	position: relative;
+    overflow: hidden;
+	float: right;
+}
+
+.main-secondtop{
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+	overflow: hidden;
+}
+
+.main-secondbottom{
+	height: 49.5%;
+	width: 100%;
+	position: relative;
+	float: top;
+}
+
+.footer-container{
+	height: 10%;
+}
+
+*:fullscreen
+		*:-ms-fullscreen,
+		*:-webkit-full-screen,
+		*:-moz-full-screen {
+		   overflow: auto !important;
+		}
